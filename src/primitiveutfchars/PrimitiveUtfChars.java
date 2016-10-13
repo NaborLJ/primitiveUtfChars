@@ -14,8 +14,8 @@ public class PrimitiveUtfChars {
 
         File texto3 = new File("/home/oracle/NetBeansProjects/primitiveUtfChars/text3.txt");
         texto3.createNewFile();
-        DataOutputStream textdout = new DataOutputStream(new FileOutputStream("texto4.txt"));
-        DataInputStream textdin = new DataInputStream(new FileInputStream("texto4.txt"));
+        DataOutputStream textdout = new DataOutputStream(new FileOutputStream("texto3.txt"));
+        DataInputStream textdin = new DataInputStream(new FileInputStream("texto3.txt"));
         textdout.writeUTF("esta e unha cadea\n");
         int aux1 = textdout.size();
         System.out.println("writeUTF escribiu: " + aux1);
